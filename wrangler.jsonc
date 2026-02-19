@@ -1,6 +1,13 @@
 {
   "name": "defense-in-depth-rocks",
   "compatibility_date": "2026-02-18",
+  "observability": {
+    "enabled": true,
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+    },
+  },
   "assets": {
     "directory": "./dist",
   },
