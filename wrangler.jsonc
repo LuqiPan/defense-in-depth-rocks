@@ -11,4 +11,10 @@
   "assets": {
     "directory": "./dist",
   },
+  "routes": [
+    {
+      "pattern": "defense.indepth.rocks",
+      "custom_domain": true,
+    },
+  ],
 }
