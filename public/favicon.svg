@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Defense in Depth Rocks favicon">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f2937" />
+      <stop offset="1" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="shield" x1="18" y1="10" x2="46" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ea5e9" />
+      <stop offset="1" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="rock" x1="23" y1="23" x2="40" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fafc" />
+      <stop offset="1" stop-color="#94a3b8" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)" />
+  <path
+    d="M32 10 46 16V30c0 10-6.4 18.1-14 22-7.6-3.9-14-12-14-22V16Z"
+    fill="url(#shield)"
+    stroke="#e2e8f0"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+  <path d="M22 26H42M20 31H44M22 36H42" stroke="#bfdbfe" stroke-opacity=".65" stroke-width="1.5" stroke-linecap="round" />
+  <path
+    d="M32 23 39 29 36 39 27 41 23 33Z"
+    fill="url(#rock)"
+    stroke="#f8fafc"
+    stroke-width="1.5"
+    stroke-linejoin="round"
+  />
+  <path d="M32 23V41M27 41 36 39 39 29" stroke="#64748b" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
